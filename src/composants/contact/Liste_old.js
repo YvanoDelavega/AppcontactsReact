@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Contact from "./Contact.js";
+import Contact from "./contact/Contact.js";
 
 export default class Liste extends Component {
   state = {
