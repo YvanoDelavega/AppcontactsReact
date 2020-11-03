@@ -13,9 +13,9 @@ class App extends Component {
   render() {
     return (
       // ceci n'est pas de l'html, c'est du JSX
-
+      // basename="/" : https://medium.com/@bennirus/deploying-a-create-react-app-with-routing-to-github-pages-f386b6ce84c2
       <Provider>
-        <Router>
+        <Router basename="/">
           <div className="App">
             <Header />
             <div className="container">
