@@ -7,7 +7,7 @@ import Erreur from "./composants/Erreur.js";
 import Todo from "./composants/Todo.js";
 import "bootstrap/dist/css/bootstrap.min.css";
 import {Provider} from './context'
-import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
+import { HashRouter as Router, Route, Switch } from "react-router-dom";
 
 class App extends Component {
   render() {
